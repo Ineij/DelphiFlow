@@ -6,18 +6,21 @@
 
 # DelphiFlow
 
-**A free, open Delphi survey platform for students and researchers.**
+**A personal Delphi survey platform for students and researchers.**
 
 ![Status](https://img.shields.io/badge/status-live-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+
+**[English](./README.md) | [中文](./README.zh.md)**
 
 </div>
 
 ---
 
-## 🌐 Live Website
+## 🌐 Live Demo
 
-> ⚠️ **Note:** The hosted website may become unavailable around **November 2026**. It is recommended to self-host using your own Supabase backend before that date.
+> ⚠️ **Note:** The hosted demo is for **personal use only** and may become unavailable around **November 2026**.  
+> If you want your own instance, please follow the self-hosting guide below.
 
 ---
 
@@ -25,28 +28,33 @@
 
 **DelphiFlow** is my first vibe coding project — a purpose-built web platform for conducting **Delphi method surveys**, designed for students and academic researchers.
 
-Both **survey designers** and **expert respondents** work through the **same portal**, eliminating the need to manage multiple tools or links. The platform is completely open and free to use — no account setup required to get started.
+Both **survey designers** and **expert respondents** work through the **same portal**, eliminating the need to manage multiple tools or links.
 
 ---
 
 ## 🚀 Features
 
-- 📝 **Flexible Survey Editor** — Add questions freely, embed images, drag & drop to reorder, and configure rating scales with full customization
-- 👥 **Unified Access** — Designers and expert respondents share the same entry point, reducing onboarding friction
+- 📝 **Flexible Survey Editor** — Add questions freely, embed images, drag & drop to reorder, and configure rating scales
+- 👥 **Unified Access** — Designers and expert respondents share the same entry point
 - 🔄 **Delphi-Optimized** — Built specifically for multi-round Delphi questionnaire workflows
-- 🌍 **Open to Everyone** — No installation needed, accessible directly from the browser
 
 ---
 
-## 🛠️ Self-Hosting & Backend
+## 🛠️ Deploy Your Own Instance
 
-This project uses **Supabase** as its backend. If you wish to self-host or customize the platform:
+Since this platform is personally hosted, **you are encouraged to fork and self-host your own version**:
 
-1. Create your own project at [supabase.com](https://supabase.com)
-2. Configure your Supabase credentials in the `lib` directory
-3. Deploy to your preferred hosting platform (e.g., Vercel, Netlify)
+1. **Fork** this repository
+2. Create a free project at [supabase.com](https://supabase.com)
+3. Add your Supabase credentials in the `lib` directory
+4. Deploy to [Vercel](https://vercel.com) in one click
 
-> 💡 Self-hosting is recommended for long-term use or institutional research projects.
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+> 💡 Once deployed, you will have a fully independent instance with your own database and domain.
 
 ---
 
