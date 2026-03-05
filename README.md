@@ -58,6 +58,14 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ---
 
+## 💬 Try It Out
+
+I've already designed and published a **feedback survey** using DelphiFlow itself!  
+If you'd like to experience the interface, simply **register and log in as an Expert** to fill it out.  
+Your feedback means a lot to me — I'd love to hear what you think! 🎉
+
+---
+
 ## 🙌 Acknowledgements
 
 Built with ❤️ as a vibe coding experiment. Feedback and contributions are welcome!
