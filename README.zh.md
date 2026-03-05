@@ -58,6 +58,14 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=你的_supabase_anon_key
 
 ---
 
+## 💬 体验一下
+
+我已经使用 DelphiFlow 设计并发布了一份**使用反馈问卷**！  
+如果你想体验这个界面，只需从 **Expert 通道注册并登录**即可填写。  
+非常期待你的反馈，欢迎告诉我你的想法！🎉
+
+---
+
 ## 🙌 致谢
 
 用 ❤️ 构建的 Vibe Coding 实验项目，欢迎反馈与贡献！
